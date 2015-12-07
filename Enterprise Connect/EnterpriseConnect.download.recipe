@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>Description</key>
+<string>Download recipe for Enterprise Connect. Since EC is provided through Apple Professional Services via a cloud download, not sure if any of the current AutoPkg URL processors will actually works with the link APS provides. But this file is here for future use/completion's sake.</string>
+<key>Identifier</key>
+<string>com.github.chalcahuite.download.enterprise_connect</string>
+<key>Input</key>
+<dict>
+<key>RELEASE</key>
+<string>latest</string>
+<key>LOCALE</key>
+<string>en_US</string>
+<key>NAME</key>
+<string>Enterprise Connect</string>
+</dict>
+<key>MinimumVersion</key>
+<string>0.2.0</string>
+<key>Process</key>
+<array>
+<dict>
+<key>Arguments</key>
+<dict>
+<key>product_name</key>
+<string>Enterprise Connect</string>
+<key>release</key>
+<string>%RELEASE%</string>
+<key>locale</key>
+<string>%LOCALE%</string>
+</dict>
+<key>Processor</key>
+<string>CURLDownloader</string>
+</dict>
+<dict>
+<key>Arguments</key>
+<dict>
+<key>url</key>
+<string>https://attache.apple.com/AttacheWeb/dl?id=ATCbddc2250868b45809c17835cc8bfbd05&ek=ATC%2F0yhxfeQ%2FUoiAfvOw0JDDQ%3D%3D</string>
+</dict>
+<dict>
+<key>Processor</key>
+<string>EndOfCheckPhase</string>
+</dict>
+</array>
+</dict>
+</plist>
