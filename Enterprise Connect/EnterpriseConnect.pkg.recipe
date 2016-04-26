@@ -1,4 +1,4 @@
- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -7,18 +7,18 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Enterprise Connect and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.chalcahuite.pkg.EnterpriseConnect</string>
+	<string>com.com.github.chalcahuite.enterprise_connect</string>
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
 		<string>com.apple.Enterprise-Connect</string>
 		<key>NAME</key>
-		<string>Enterprise Connect</string>
+		<string>Enterprise-Connect</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.5.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.chalcahuite.download.enterprise_connect</string>
+	<string>com.comcast.github.savile200.download.enterprise_connect</string>
 	<key>Process</key>
 	<array>
 		<dict>

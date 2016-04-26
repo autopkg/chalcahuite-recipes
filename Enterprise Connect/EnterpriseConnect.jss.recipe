@@ -15,7 +15,7 @@ https://github.com/homebysix/auto-update-magic</string>
 	<key>Description</key>
 	<string>Downloads the latest version of GraphicConverter and creates a package. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.chalcahuite.jss.EnterpriseConnect</string>
+	<string>com.com.github.chalcahuite.jss.enterprise_connect</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -29,16 +29,16 @@ https://github.com/homebysix/auto-update-magic</string>
 		<key>ICON</key>
 		<string>%RECIPE_DIR%/EnterpriseConnect.png</string>
 		<key>NAME</key>
-		<string>EnterpriseConnect</string>
+		<string>Enterprise Connect</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Testing (DEFAULT)</string>
+		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.5.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.chalcahuite.pkg.EnterpriseConnect</string>
+	<string>com.comcast.github.savile200.pkg.enterprise-connect</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -55,14 +55,6 @@ https://github.com/homebysix/auto-update-magic</string>
 						<true/>
 						<key>template_path</key>
 						<string>%GROUP_TEMPLATE%</string>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>Testing</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>%RECIPE_DIR%/SmartGroupTemplate.xml (DEFAULT)</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
