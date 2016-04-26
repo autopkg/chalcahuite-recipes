@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>GITHUB_REPO</key>
-        <string>https://github.comcast.com/savile200/EnterpriseConnect</string>
+        <string>savile200/EnterpriseConnect</string>
         <key>NAME</key>
         <string>EnterpriseConnect</string>
     </dict

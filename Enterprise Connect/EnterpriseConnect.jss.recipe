@@ -13,7 +13,7 @@ https://github.com/sheagcraig/JSSImporter
 For tips on integrating JSSImporter into your Casper environment, check out Auto Update Magic:
 https://github.com/homebysix/auto-update-magic</string>
 	<key>Description</key>
-	<string>Downloads the latest version of GraphicConverter and creates a package. Then, uploads to the JSS.</string>
+	<string>Downloads the latest version of Enterprise Connect and creates a package. Then uploads to the JSS.</string>
 	<key>Identifier</key>
 	<string>com.com.github.chalcahuite.jss.enterprise_connect</string>
 	<key>Input</key>
