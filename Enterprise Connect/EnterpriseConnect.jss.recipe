@@ -38,7 +38,7 @@ https://github.com/homebysix/auto-update-magic</string>
 	<key>MinimumVersion</key>
 	<string>0.5.0</string>
 	<key>ParentRecipe</key>
-	<string>com.comcast.github.savile200.pkg.enterprise-connect</string>
+	<string>com.github.chalcahuite.pkg.enterprise-connect</string>
 	<key>Process</key>
 	<array>
 		<dict>

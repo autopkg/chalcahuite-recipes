@@ -18,7 +18,7 @@
 	<key>MinimumVersion</key>
 	<string>0.5.0</string>
 	<key>ParentRecipe</key>
-	<string>com.comcast.github.savile200.download.enterprise_connect</string>
+	<string>com.github.chalcahuite.download.enterprise_connect</string>
 	<key>Process</key>
 	<array>
 		<dict>
