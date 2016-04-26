@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Enterprise Connect and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.com.github.chalcahuite.enterprise_connect</string>
+	<string>com.github.chalcahuite.enterprise_connect</string>
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
