@@ -12,7 +12,7 @@
         <string>savile200/EnterpriseConnect</string>
         <key>NAME</key>
         <string>EnterpriseConnect</string>
-    </dict
+    </dict>
     <key>MinimumVersion</key>
     <string>0.6.0</string>
     <key>Process</key>
