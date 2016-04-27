@@ -56,23 +56,7 @@ https://github.com/homebysix/auto-update-magic</string>
 						<key>template_path</key>
 						<string>%GROUP_TEMPLATE%</string>
 					</dict>
-					<dict>
-						<key>name</key>
-						<string>Testing</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>BoxSync-update-smart</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
-					</dict>
-				</array>
+                </array>
 				<key>policy_category</key>
 				<string>%POLICY_CATEGORY%</string>
 				<key>policy_template</key>
