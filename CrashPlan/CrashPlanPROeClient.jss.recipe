@@ -46,6 +46,8 @@ https://github.com/homebysix/auto-update-magic</string>
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>pkg_path</key>
+				<string>%RECIPE_CACHE_DIR%/CrashPlanPROe-%version%.pkg</string>
 				<key>category</key>
 				<string>%CATEGORY%</string>
 				<key>groups</key>
