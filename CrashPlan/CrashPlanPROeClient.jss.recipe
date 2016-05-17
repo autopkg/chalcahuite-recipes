@@ -4,10 +4,10 @@
 <dict>
 	<key>Comment</key>
 	<string>
-This AutoPkg recipe was created using JSSRecipeCreator: 
+This AutoPkg recipe was created using JSSRecipeCreator:
 https://github.com/sheagcraig/JSSRecipeCreator
 
-It is meant to be used with JSSImporter: 
+It is meant to be used with JSSImporter:
 https://github.com/sheagcraig/JSSImporter
 
 For tips on integrating JSSImporter into your Casper environment, check out Auto Update Magic:
@@ -34,6 +34,8 @@ https://github.com/homebysix/auto-update-magic</string>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+		<key>version</key>
+		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
