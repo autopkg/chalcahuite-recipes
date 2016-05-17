@@ -19,9 +19,9 @@ https://github.com/homebysix/auto-update-magic</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Utilities</string>
+		<string>Testing</string>
 		<key>DESCRIPTION</key>
-		<string></string>
+		<string>Secure, encrypted backup and recovery for your data.</string>
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
@@ -55,14 +55,6 @@ https://github.com/homebysix/auto-update-magic</string>
 						<true/>
 						<key>template_path</key>
 						<string>%GROUP_TEMPLATE%</string>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>Testing</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
