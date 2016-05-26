@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>
+This AutoPkg recipe was created using JSSRecipeCreator: 
+https://github.com/sheagcraig/JSSRecipeCreator
+
+It is meant to be used with JSSImporter: 
+https://github.com/sheagcraig/JSSImporter
+
+For tips on integrating JSSImporter into your Casper environment, check out Auto Update Magic:
+https://github.com/homebysix/auto-update-magic</string>
+	<key>Description</key>
+	<string>Downloads outset and renames with version. No repackaging done. Then, uploads to the JSS.</string>
+	<key>Identifier</key>
+	<string>com.github.chalcahuite.jss.outset</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Utilities</string>
+		<key>DESCRIPTION</key>
+		<string></string>
+		<key>ICON</key>
+		<string></string>
+		<key>NAME</key>
+		<string>Outset</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string></string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.5</string>
+	<key>ParentRecipe</key>
+	<string>com.github.patgmac.pkg.outset</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>category</key>
+				<string>%CATEGORY%</string>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Testing</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+					</dict>
+				</array>
+				<key>policy_category</key>
+				<string>%POLICY_CATEGORY%</string>
+				<key>policy_template</key>
+				<string>%POLICY_TEMPLATE%</string>
+				<key>prod_name</key>
+				<string>%NAME%</string>
+				<key>self_service_description</key>
+				<string>%DESCRIPTION%</string>
+				<key>self_service_icon</key>
+				<string>%ICON%</string>
+			</dict>
+			<key>Processor</key>
+			<string>JSSImporter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
