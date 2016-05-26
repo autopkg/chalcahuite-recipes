@@ -23,13 +23,13 @@ https://github.com/homebysix/auto-update-magic</string>
 		<key>DESCRIPTION</key>
         <string></string>
         <key>GROUP_NAME</key>
-        <string>%NAME-update-smart</string>
+        <string>%NAME%-update-smart</string>
         <key>GROUP_TEMPLATE</key>
         <string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
 		<key>ICON</key>
 		<string></string>
 		<key>NAME</key>
-		<string>Outset</string>
+		<string>outset</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
