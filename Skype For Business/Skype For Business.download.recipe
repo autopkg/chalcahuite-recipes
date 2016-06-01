@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Skype For Business</string>
+		<string>SkypeForBusiness</string>
 		<key>SPARKLE_FEED_URL</key>
 		<string>https://rink.hockeyapp.net/api/2/apps/4071b98abc894d1eac155727210b628c</string>
 	</dict>
