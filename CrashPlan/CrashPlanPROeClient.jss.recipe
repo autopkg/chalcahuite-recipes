@@ -40,7 +40,7 @@ https://github.com/homebysix/auto-update-magic</string>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.homebysix.pkg.CrashPlanPROeClient</string>
+	<string>com.github.chalcahuite.pkg.CrashPlanPROeClient</string>
 	<key>Process</key>
 	<array>
 		<dict>
