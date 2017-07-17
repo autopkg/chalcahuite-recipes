@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><extensionAttribute>
+<displayName>Cisco Spark Version</displayName>
+<description/>
+<dataType>string</dataType>
+<scriptContentsMac>#!/bin/bash
+Version=$(defaults read /Applications/"Slack.app"/Contents/Info.plist CFBundleShortVersionString)
+echo "&lt;result&gt;$CFBundleVersion&lt;/result&gt;"
+exit 0</scriptContentsMac>
+<scriptContentsWindows/>
+</extensionAttribute>
