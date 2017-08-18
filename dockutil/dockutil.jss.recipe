@@ -37,10 +37,10 @@ https://github.com/homebysix/auto-update-magic</string>
 		<key>pkg_path</key>
 		<string>%RECIPE_DIR%/Downloads/</string>
 		<key>filename</key>
-		<string>%filename%</string>
+		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.2.9</string>
+	<string>0.5.0</string>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.jessepeterson.pkg.dockutil</string>
 	<key>Process</key>
