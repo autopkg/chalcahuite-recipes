@@ -32,7 +32,7 @@ https://github.com/sheagcraig/JSSImporter</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
 		<key>pkg_path</key>
-		<string>%RECIPE_CACHE_DIR%/downloads</string>
+		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
