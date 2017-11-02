@@ -26,9 +26,13 @@ https://github.com/sheagcraig/JSSImporter</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Utilities</string>
 		<key>POLICY_TEMPLATE</key>
-		<string></string>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
 		<key>pkg_path</key>
-		<string></string>
+		<string>%RECIPE_DIR%/Downloads/</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
