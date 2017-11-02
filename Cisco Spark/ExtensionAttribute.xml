@@ -3,8 +3,8 @@
 <description/>
 <dataType>string</dataType>
 <scriptContentsMac>#!/bin/bash
-Version=$(defaults read /Applications/"Slack.app"/Contents/Info.plist CFBundleShortVersionString)
-echo "&lt;result&gt;$CFBundleVersion&lt;/result&gt;"
+Version=$(defaults read /Applications/"Cisco Spark.app"/Contents/Info.plist CFBundleShortVersionString)
+echo "&lt;result&gt;$Version&lt;/result&gt;"
 exit 0</scriptContentsMac>
 <scriptContentsWindows/>
 </extensionAttribute>
