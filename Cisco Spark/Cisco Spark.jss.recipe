@@ -49,7 +49,7 @@ https://github.com/sheagcraig/JSSImporter</string>
 				<array>
 					<dict>
 						<key>name</key>
-						<string></string>
+						<string>%GROUP_NAME%</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
