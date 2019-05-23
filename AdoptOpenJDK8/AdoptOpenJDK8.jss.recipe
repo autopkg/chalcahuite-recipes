@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>
+This AutoPkg recipe was created using JSSRecipeCreator: 
+https://github.com/sheagcraig/JSSRecipeCreator
+
+It is meant to be used with JSSImporter: 
+https://github.com/sheagcraig/JSSImporter
+
+For tips on integrating JSSImporter into your Casper environment, check out Auto Update Magic:
+https://github.com/homebysix/auto-update-magic</string>
+	<key>Description</key>
+	<string>Downloads the current release version of AdoptOpenJDK 8 and builds a package. This is based from the tar version rather than the signed pkg version, so that the true version number can be obtained. Then, uploads to the JSS.</string>
+	<key>Identifier</key>
+	<string>com.github.chalcahuite-recipes.jss.AdoptOpenJDK8</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Testing</string>
+		<key>DESCRIPTION</key>
+		<string>AdoptOpenJDK provides prebuilt OpenJDK binaries from a fully open source set of build scripts and infrastructure.</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/AdoptOpenJDK.png</string>
+		<key>NAME</key>
+		<string>AdoptOpenJDK 8</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.grahampugh.recipes.pkg.AdoptOpenJDK8</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>category</key>
+				<string>%CATEGORY%</string>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>%NAME%-update-smart</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+					</dict>
+				</array>
+				<key>policy_category</key>
+				<string>%POLICY_CATEGORY%</string>
+				<key>policy_template</key>
+				<string>%POLICY_TEMPLATE%</string>
+				<key>prod_name</key>
+				<string>%NAME%</string>
+				<key>self_service_description</key>
+				<string>%DESCRIPTION%</string>
+				<key>self_service_icon</key>
+				<string>%ICON%</string>
+			</dict>
+			<key>Processor</key>
+			<string>JSSImporter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
