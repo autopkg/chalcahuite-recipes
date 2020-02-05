@@ -20,6 +20,15 @@
 	<key>Process</key>
 	<array>
 		<dict>
+			<key>Processor</key>
+			<string>DeprecationWarning</string>
+			<key>Arguments</key>
+			<dict>
+				<key>warning_message</key>
+				<string>This set of recipes has been deprecated and will no longer be maintained. Please update your recipe list and overrides to use the version available from precursorca-recipes.</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
