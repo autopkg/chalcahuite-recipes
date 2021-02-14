@@ -10,8 +10,6 @@
 	<string>com.github.chalcahuite.pkg.CiscoSpark</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>Cisco-Systems.Spark</string>
 		<key>NAME</key>
 		<string>CiscoSpark</string>
 	</dict>
