@@ -22,10 +22,12 @@ https://github.com/homebysix/auto-update-magic</string>
 		<string>Utilities</string>
 		<key>DESCRIPTION</key>
 		<string></string>
+		<key>EXTENSION_ATTRIBUTE_TEMPLATE</key>
+		<string>%RECIPE_DIR%/dockutilExtensionAttribute.xml</string>
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+		<string>%RECIPE_DIR%/dockutilSmartGroupTemplate.xml</string>
 		<key>ICON</key>
 		<string></string>
 		<key>NAME</key>
@@ -33,12 +35,10 @@ https://github.com/homebysix/auto-update-magic</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
-		<key>pkg_path</key>
-		<string>%RECIPE_DIR%/Downloads/</string>
+		<string>%RECIPE_DIR%/dockutilPolicyTemplate.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.5.0</string>
+	<string>1.0.0</string>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.jessepeterson.pkg.dockutil</string>
 	<key>Process</key>
@@ -50,6 +50,13 @@ https://github.com/homebysix/auto-update-magic</string>
                 <string>%version%</string>
 				<key>category</key>
 				<string>%CATEGORY%</string>
+                    <key>extension_attributes</key>
+                    <array>
+                        <dict>
+                            <key>ext_attribute_path</key>
+                            <string>%EXTENSION_ATTRIBUTE_TEMPLATE%</string>
+                        </dict>
+                    </array>
 				<key>groups</key>
 				<array>
 					<dict>
