@@ -2,8 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Comment</key>
-	<string>
+    <key>Comment</key>
+    <string>
 This AutoPkg recipe was created using JSSRecipeCreator:
 https://github.com/sheagcraig/JSSRecipeCreator
 
@@ -57,33 +57,40 @@ https://github.com/homebysix/auto-update-magic</string>
 			<dict>
                 <key>version</key>
                 <string>%version%</string>
-				<key>category</key>
-				<string>%CATEGORY%</string>
-				<key>groups</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>%GROUP_NAME%</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>%GROUP_TEMPLATE%</string>
-					</dict>
-				</array>
-				<key>policy_category</key>
-				<string>%POLICY_CATEGORY%</string>
-				<key>policy_template</key>
-				<string>%POLICY_TEMPLATE%</string>
-				<key>prod_name</key>
-				<string>%NAME%</string>
-				<key>self_service_description</key>
-				<string>%DESCRIPTION%</string>
-				<key>self_service_icon</key>
-				<string>%ICON%</string>
-			</dict>
-			<key>Processor</key>
-			<string>JSSImporter</string>
-		</dict>
-	</array>
+                <key>category</key>
+                <string>%CATEGORY%</string>
+                    <key>extension_attributes</key>
+                    <array>
+                        <dict>
+                            <key>ext_attribute_path</key>
+                            <string>%EXTENSION_ATTRIBUTE_TEMPLATE%</string>
+                        </dict>
+                    </array>
+                <key>groups</key>
+                <array>
+                    <dict>
+                        <key>name</key>
+                        <string>%GROUP_NAME%</string>
+                        <key>smart</key>
+                        <true/>
+                        <key>template_path</key>
+                        <string>%GROUP_TEMPLATE%</string>
+                    </dict>
+                </array>
+                <key>policy_category</key>
+                <string>%POLICY_CATEGORY%</string>
+                <key>policy_template</key>
+                <string>%POLICY_TEMPLATE%</string>
+                <key>prod_name</key>
+                <string>%NAME%</string>
+                <key>self_service_description</key>
+                <string>%DESCRIPTION%</string>
+                <key>self_service_icon</key>
+                <string>%ICON%</string>
+            </dict>
+            <key>Processor</key>
+            <string>JSSImporter</string>
+        </dict>
+    </array>
 </dict>
 </plist>
